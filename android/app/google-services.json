@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "123456789",
-    "project_id": "selene-chat-dummy",
-    "storage_bucket": "selene-chat-dummy.appspot.com"
+    "project_number": "485861325401",
+    "project_id": "lsaig-5o4m2",
+    "storage_bucket": "lsaig-5o4m2.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789:android:dummy",
+        "mobilesdk_app_id": "1:485861325401:android:8230ead988a4110de94f48",
         "android_client_info": {
           "package_name": "com.selene.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "123456789-dummy.apps.googleusercontent.com",
+          "client_id": "485861325401-2t3ilpt7hsgqpkj04nrjcdd4abfn741o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.selene.chat",
+            "certificate_hash": "6d64f7cced503052489446031e73946f0030e017"
+          }
+        },
+        {
+          "client_id": "485861325401-v00vjo1qgi2vcj8q8fg24v21f2d22pvf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDummyKeyForDevelopment"
+          "current_key": "AIzaSyDa80RvYZ3BE3637j29m6FKy9_Hl15e4uQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "123456789-dummy.apps.googleusercontent.com",
+              "client_id": "485861325401-v00vjo1qgi2vcj8q8fg24v21f2d22pvf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
