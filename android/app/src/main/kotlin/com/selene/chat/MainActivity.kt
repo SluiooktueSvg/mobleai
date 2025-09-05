@@ -1,4 +1,4 @@
-package com.selene.selene_chat
+package com.selene.chat
 
 import io.flutter.embedding.android.FlutterActivity
 
