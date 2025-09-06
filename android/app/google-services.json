@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:485861325401:android:9a130786bfe58b86e94f48",
+        "mobilesdk_app_id": "1:485861325401:android:65606d613554a6bae94f48",
         "android_client_info": {
-          "package_name": "com.selene.chat"
+          "package_name": "com.selene.selene_chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "485861325401-2t3ilpt7hsgqpkj04nrjcdd4abfn741o.apps.googleusercontent.com",
+          "client_id": "485861325401-fmrkdirf9ep51ringv946npo5q1qq2ip.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.selene.chat",
+            "package_name": "com.selene.selene_chat",
             "certificate_hash": "6d64f7cced503052489446031e73946f0030e017"
           }
         },
@@ -27,48 +27,6 @@
         }
       ],
       "api_key": [
-        {
-          "current_key": "AIzaSyDa80RvYZ3BE3637j29m6FKy9_Hl15e4uQ"
-        },
-        {
-          "current_key": "AIzaSyBJ1HC_ngivZILLOd97I68wf2Kh2lDm-bE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "485861325401-v00vjo1qgi2vcj8q8fg24v21f2d22pvf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "485861325401-frpmt9m84erqi1h46qol49408n6hoohc.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.selene.seleneChat"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:485861325401:android:65606d613554a6bae94f48",
-        "android_client_info": {
-          "package_name": "com.selene.selene_chat"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "485861325401-v00vjo1qgi2vcj8q8fg24v21f2d22pvf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDa80RvYZ3BE3637j29m6FKy9_Hl15e4uQ"
-        },
         {
           "current_key": "AIzaSyBJ1HC_ngivZILLOd97I68wf2Kh2lDm-bE"
         }
