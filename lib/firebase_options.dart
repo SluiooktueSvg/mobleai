@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,21 +41,51 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDummyKeyForDevelopment',
-    appId: '1:123456789:android:dummy',
-    messagingSenderId: '123456789',
-    projectId: 'selene-chat-dummy',
-    storageBucket: 'selene-chat-dummy.appspot.com',
+    apiKey: 'AIzaSyDa80RvYZ3BE3637j29m6FKy9_Hl15e4uQ',
+    appId: '1:485861325401:android:65606d613554a6bae94f48',
+    messagingSenderId: '485861325401',
+    projectId: 'lsaig-5o4m2',
+    storageBucket: 'lsaig-5o4m2.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDummyKeyForDevelopment',
-    appId: '1:123456789:ios:dummy',
-    messagingSenderId: '123456789',
-    projectId: 'selene-chat-dummy',
-    storageBucket: 'selene-chat-dummy.appspot.com',
-    iosClientId: '123456789-dummy.apps.googleusercontent.com',
-    iosBundleId: 'com.selene.chat',
+    apiKey: 'AIzaSyD1dx1OgU43G0uwiNXtWmMNzci-bfN58EI',
+    appId: '1:485861325401:ios:1eaf71eeda1f0cd0e94f48',
+    messagingSenderId: '485861325401',
+    projectId: 'lsaig-5o4m2',
+    storageBucket: 'lsaig-5o4m2.firebasestorage.app',
+    androidClientId: '485861325401-2t3ilpt7hsgqpkj04nrjcdd4abfn741o.apps.googleusercontent.com',
+    iosClientId: '485861325401-frpmt9m84erqi1h46qol49408n6hoohc.apps.googleusercontent.com',
+    iosBundleId: 'com.selene.seleneChat',
   );
-}
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyDFVqQ2lAbTHfxnOs1VT1yJQKRAkWJDf48',
+    appId: '1:485861325401:web:ba7f3db32d8e19ffe94f48',
+    messagingSenderId: '485861325401',
+    projectId: 'lsaig-5o4m2',
+    authDomain: 'lsaig-5o4m2.firebaseapp.com',
+    storageBucket: 'lsaig-5o4m2.firebasestorage.app',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyD1dx1OgU43G0uwiNXtWmMNzci-bfN58EI',
+    appId: '1:485861325401:ios:1eaf71eeda1f0cd0e94f48',
+    messagingSenderId: '485861325401',
+    projectId: 'lsaig-5o4m2',
+    storageBucket: 'lsaig-5o4m2.firebasestorage.app',
+    androidClientId: '485861325401-2t3ilpt7hsgqpkj04nrjcdd4abfn741o.apps.googleusercontent.com',
+    iosClientId: '485861325401-frpmt9m84erqi1h46qol49408n6hoohc.apps.googleusercontent.com',
+    iosBundleId: 'com.selene.seleneChat',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDFVqQ2lAbTHfxnOs1VT1yJQKRAkWJDf48',
+    appId: '1:485861325401:web:ba7f3db32d8e19ffe94f48',
+    messagingSenderId: '485861325401',
+    projectId: 'lsaig-5o4m2',
+    authDomain: 'lsaig-5o4m2.firebaseapp.com',
+    storageBucket: 'lsaig-5o4m2.firebasestorage.app',
+  );
+
+}
