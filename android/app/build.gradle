@@ -17,15 +17,19 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+// Esta línea es la única que necesitamos para los servicios de Google
 apply plugin: 'com.google.gms.google-services'
+// Esta línea es la que integra Flutter
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    ndkVersion "26.1.10909125"
+    namespace "com.selene.selene_chat"
     compileSdkVersion 34
+    ndkVersion "26.1.10909125"
 
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
@@ -47,4 +51,6 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    // No se necesitan dependencias adicionales aquí para tu configuración
+}
